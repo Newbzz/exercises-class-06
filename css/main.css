@@ -97,6 +97,88 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html,
+body {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+p,
+ul,
+al,
+dl, {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, {
+	margin-bottom: 12px;
+}
+
+
+
+
+.menu-list {
+	padding: 24px;
+	background-color: #dbe9ec;
+}
+
+
+.menu-item {
+	overflow: hidden;
+	position: relative;
+	border-top: 1px solid #000;
+	padding-top: 23px;
+	margin-top: 24px;
+}
+
+
+.menu-item:first-child {
+	border-top: none;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.dish-heading {
+	width: 80%;
+	margin-bottom: 0;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+	font-size: 13.3px;
+	line-height: 18px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+
+.dish-desc {
+	margin-bottom: 0;
+	font-style: italic;
+	font-size: 13.13px;
+	line-height: 18px;
+}
+
+
+.dish-price {
+	position: absolute;
+	top: 23px;
+	right: ;
+	width: 10%;
+	text-align: right;
+	
+}
+
+
+.menu-item:first-child .dish-price {
+	top: 0;
+}
+
+
 /*Nav Object*/
 
 .nav {
@@ -143,7 +225,7 @@ textarea {
 	float: right;
 	padding-top: 36px;
 	margin-right: 0;
-	font-family: '20_dbregular';
+	font-family: font-family: font-family: 'Lobster', cursive;
 	font-size: 32px;
 }
 
